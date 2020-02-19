@@ -1,0 +1,96 @@
+1. Semantic HTML is a tag that describes a meaning.
+2. HTML is used to provide meaning to our content, and also to divide the content.
+3. Attributes control the behavior of the element anf are placed within the tags.
+4. The h1 tag is for the main title of the page and should only be used once.
+5. img and a
+6. In the head of our html document e put the description of the page.
+7. and id is a selector it has greater importance than classes
+8. id can be added to any element
+9. you can use an id only once in a page
+10. a class is a selector
+11. class can be added to any elements
+12. you can use the same class as many times as you want.
+13. <a href="http://chriscoyier.net" target="_blank"> Will open in new tab <a>
+14. alt is used to specify alternative text, usually used for images
+15. we use the # to reference an id
+16. a section has semantic meaning instead a div has only presentational meaning
+17. CSS is used for styling
+18. h2 { }
+19. a class can be used more often and has less importance, id should be used only once
+20. with a '.' period
+21. p .human
+22. the parent child selector ">" is used to select only direct children.  It would be useful when we have concetenations of children.
+23. "div .sidebar"
+24. a pseudo selector is a selector with a colon preceding it, such as [nameofclass]:hover
+25. we can use "line-height:"
+26. we can use "letter-spacing"
+27. we can use "text:transform:" and capitals, lowercase, capitalize respectively
+28. div { 1px dotted black;}
+29. *
+30. /*  */
+31. pwd
+32. ls
+33. rm      I have to be careful because it doesn't ask for a confirmation
+34. to keep track of all my changes
+35. everytime I add something to the code
+36. $git push origin [branchname]
+37. Fork -> clone link -> 
+
+1. an inline element does not cause a line break, and doesnt take the full width of the page, 
+it is usually used within other HTML elements
+    a block element causes a line break and takes the full wisth of the page
+2.  and absolutely positioned element is independent from the flow of the document
+3.  width: auto; 
+4.  display block:      headers, paragraph, li
+    display inline:     span
+    display inline-block:   
+5.  The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. (from: https://www.w3schools.com/css/css_boxmodel.asp)
+    "using box-sizing: " 
+
+
+Questions:
+    1. What is Semantic HTML? 
+    2. What is HTML used for? 
+    3. What is an attribute and where do we put it? 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    5. Name two tags that have required attributes
+    6. What do we put in the head of our HTML document? 
+    7. What is an id? 
+    8. What elements can I add an id to? 
+    9. How many times can I use the same id on a page? 
+    10. What is a class? 
+    11. What elements can I add a class to? 
+    12. How many times can I use the same class on a page? 
+    13. How do I get my link to open in a new tab?
+    14. What is the alt attribute used for? 
+    15. How do I reference an id?
+    16. What is the difference between a section and a div
+    17. What is CSS used for? 
+    18. How to we select an element? Example - every h2 on the page
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    20. How do we select classes in CSS?
+    21. How do we select a p element with a single class of “human””?
+    22. What is a parent child selector? When would this be useful? 
+    23. How do you select all links within a div with the class of sidebar?
+    24. What is a pseudo selector?
+    25. What do we use the change the spacing between lines?
+    26. What do we use to change the spacing between letters?
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    28. How do I add a 1px border around my div that is dotted and black?
+    29. How do I select everything on the page? 
+    30. How do I write a comment in CSS?
+    31. How do I find out what file I am in, when I am using the command line? 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    34. Why should I use version control? 
+    35. How often should I commit to github?
+    36. What is the command we would use to push our repo up to github? 
+    37. Walk me through Lambda's git flow. 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
